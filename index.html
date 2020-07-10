@@ -9,34 +9,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="banner">
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light">
-                <a class="navbar-brand" href="#"><img id="main-logo" src="images/ICON/Logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Courses</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Others</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                      </li>
-                    <li class="nav-item">
-                     <button class="sign-btn">Sign In</button>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-        </div>
+    <div class="banner">
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="#"><img id="main-logo" src="images/ICON/Logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Others</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                <li class="nav-item">
+                 <button class="sign-btn">Sign In</button>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <div class="banner d-flex justify-content-center">
 <div class="row" id="mid">
 <div class="col-md-6">
    <div class="banner-text">
@@ -52,9 +52,9 @@
    <img id="illustration" src="images/Photos/Illustration.png" alt="">
 </div>
 </div>
-</section>
+    </div>
 <section class="container">
-    <div class="card-deck text-center">
+    <div class="card-deck text-center ">
         <div class="card">
           <img src="images/ICON/book.png" class="card-img-top" alt="...">
           <div class="card-body">
@@ -89,7 +89,7 @@
 <section class="container">
 <h2 class="title-pad">Online Courses</h2>
 
-<div class="row category">
+<div class="row category d-flex justify-content-center">
 
 <div class="col-md-4 category-border text-center">
 <img src="images/Photos/Morder psyc.png" alt="">
@@ -111,10 +111,63 @@
         <p class="cat-text">Designation</p>
         <button class="buy-course">Buy Course</button>
         </div>
+</div>
+</section>
+
+<section class="testimonial">   
+<h2 class="text-center" style="font-weight: bolder;">Testimonial</h2> 
+
+<div class="d-flex justify-content-center">
+
+    <div class="row"> 
+        <div class="col-md-6"><img class="img-fluid img-thumbnail rounded-circle" src="images/Photos/Man.png" alt="">
+        </div>
+        <div class="col-md-6"> <p class="text-break">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti minima est, eligendi<br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, laudantium. <br>Lorem ipsum dolor sit amet consectetur.</p></div>
+        </div>
 
 </div>
-
 </section>
+
+<section class>
+   <div class="last-line d-flex justify-content-between">
+    <div class="row last">
+        <div class="col-md-6">Millions of people of all ages and from around the world are improving their lives with us</div>
+        <div class="col-md-2">
+            <ul style="list-style: none;">
+        <li><p style="font-weight: 700;">Courses</p></li>
+        <li>Graphics</li>
+        <li>Web</li>
+        <li>Business</li>
+        <li>Marketing</li>
+        <li>Engineering</li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <ul style="list-style: none;">
+                <li><p style="font-weight: 700;">Terms</p></li>
+                <li>Graphics</li>
+                <li>Web</li>
+                <li>Business</li>
+                <li>Marketing</li>
+                <li>Engineering</li>
+                    </ul>
+        </div>
+        <div class="col-md-2">
+            <ul style="list-style: none;">
+                <li><p style="font-weight: 700;">Links</p></li>
+                <li>Graphics</li>
+                <li>Web</li>
+                <li>Business</li>
+                <li>Marketing</li>
+                <li>Engineering</li>
+                    </ul>
+        </div>
+
+    </div>
+   </div>
+   <footer style="background-color: rgb(16, 22, 41); color: white; text-align: center;">Copyright © 2020 Programming-hero.com</footer>
+</section>
+
 
     
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

@@ -1,5 +1,5 @@
 body{
-    margin: 0%;
+    
     font-family: 'Rubik', sans-serif;
 }
 .container{
@@ -8,14 +8,13 @@ body{
 
 }
 .banner{
+    border: 35px solid #F0FFF0;
     background-color:  #F0FFF0; 
     overflow: hidden;    
 }
 .navbar{
 color: black;
 Font-weight: 700px;
-margin-left: 180px;
-margin-right: 150px;
 overflow: hidden;
 }
 
@@ -33,11 +32,11 @@ width: 140x;
 height: 50px;
 }
 #illustration{
-width: 400px;
-height: 280px;
+width: 450px;
+height: 300px;
 }
 #mid{
-    margin-top: 50px;
+   
     overflow: hidden;
 }
 .banner-text{
@@ -54,7 +53,8 @@ background-color: #21B573;
 color: white;
 border: none;
 margin-top: 10px;
-margin-left: 250px;
+margin-left: 170px;
+
 overflow: hidden;
 }
 .card-img-top{
@@ -78,7 +78,6 @@ overflow: hidden;
     color: gray;
 }
 .title-pad{
-font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -100,7 +99,7 @@ margin-bottom: 30px;
    margin-top: 20px;
 }
 .cat-title{
-    color:#413960;
+    color:#201b36;
     text-align: justify;
     margin-top: 20px;
     font-weight: bold;
@@ -117,4 +116,21 @@ margin-bottom: 30px;
     color: white;
     border: none;
     position: relative;
+}
+.testimonial{
+    margin-bottom: 100px;
+}
+.testimonial h2{
+    font-size: 36px;
+    margin-bottom: 100px;
+}
+.testimonial img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.last-line{
+    border: 70px solid rgb(16, 22, 41);
+    background-color: rgb(16, 22, 41) ;
+    color: white;
+    padding-top: 0px;
 }

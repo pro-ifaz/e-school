@@ -1,0 +1,59 @@
+body{
+    margin: 0%;
+    font-family: 'Rubik', sans-serif;
+}
+.container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.banner{
+    background-color:  #F0FFF0; 
+    overflow: hidden;    
+}
+.navbar{
+color: black;
+Font-weight: 700px;
+margin-left: 180px;
+margin-right: 150px;
+overflow: hidden;
+}
+
+.sign-btn{
+width: 80px;
+height: 35px;
+border-radius: 25px;
+background-color: #21B573;
+color: white;
+border: none;
+
+}
+#main-logo{
+width: 140x;
+height: 50px;
+}
+#illustration{
+width: 400px;
+height: 280px;
+}
+#mid{
+    margin-top: 50px;
+    overflow: hidden;
+}
+.banner-text{
+    text-align: center;
+    font-weight: 900 ;
+    font-family: Poppins;
+    overflow: hidden;
+}
+.get-started-btn{
+width: 150px;
+height: 40px;
+border-radius: 25px;
+background-color: #21B573;
+color: white;
+border: none;
+margin-top: 10px;
+margin-left: 250px;
+overflow: hidden;
+}
