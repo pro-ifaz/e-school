@@ -58,9 +58,8 @@ margin-left: 170px;
 overflow: hidden;
 }
 .card-img-top{
-    width: 80px;
-    margin-left: 90px;
-    overflow: hidden;
+  margin: auto;
+   width: 100px;
 }
 .card{
     border: none;
@@ -95,8 +94,7 @@ margin-bottom: 30px;
     background-color: white;
 }
 .category-border img{
-    width: 300px;
-   margin-top: 20px;
+    margin: auto;
 }
 .cat-title{
     color:#201b36;
