@@ -31,10 +31,6 @@ border: none;
 width: 140x;
 height: 50px;
 }
-#illustration{
-width: 450px;
-height: 300px;
-}
 #mid{
    
     overflow: hidden;
@@ -52,8 +48,8 @@ border-radius: 25px;
 background-color: #21B573;
 color: white;
 border: none;
-margin-top: 10px;
-margin-left: 170px;
+margin-top: 10%;
+margin-left: 35%;
 
 overflow: hidden;
 }
